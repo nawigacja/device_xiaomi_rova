@@ -804,7 +804,6 @@ vendor/lib64/libc2d30_bltlib.so|52426726a512ea4562d7431efbe06bd555542429
 vendor/lib64/libgsl.so|34e20a8fc6f1b437d514c2044cda78bc5fcfb7d3
 vendor/lib64/libhdr_tm.so|208637299f17b43013b88f5e5538c562b54ad644
 vendor/lib64/libllvm-glnext.so|5f8b990afd8fc7349a4ba67c08eb4eb45ec0a7e2
-vendor/lib64/libllvm-qcom.so|4de0f68c070718efbec8b77d6e3415703ce07407
 vendor/lib64/libmm-hdcpmgr.so|fab257e90641bb79f510eef9648e37c4d282bf0c
 vendor/lib64/librs_adreno.so|42a344f20a4294e00664581914cd3225802daf57
 vendor/lib64/librs_adreno_sha1.so|7b4d319d68e546cdf393876488bf68b8d5c57c44

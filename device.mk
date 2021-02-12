@@ -207,6 +207,7 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_PACKAGES += \
+    libqdMetaData \
     libshim_imsvideocodec \
     vendor.qti.hardware.camera.device@1.0
 

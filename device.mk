@@ -125,7 +125,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdisplayconfig \
     liboverlay \
-    libqdMetaData.system \
     libgenlock \
     libtinyxml
 
@@ -208,6 +207,7 @@ PRODUCT_PACKAGES += \
 # IMS
 PRODUCT_PACKAGES += \
     libqdMetaData \
+    libqdMetaData.vendor \
     libshim_imsvideocodec \
     vendor.qti.hardware.camera.device@1.0
 

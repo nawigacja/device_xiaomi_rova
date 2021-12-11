@@ -14,6 +14,7 @@ TARGET_BOOT_ANIMATION_RES := 720
 VOLTAGE_BUILD_TYPE := UNOFFICIAL
 USE_PIXEL_CHARGING := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BUILD_GRAPHENEOS_CAMERA = true
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Inherit from rova device

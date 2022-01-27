@@ -126,7 +126,8 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     liboverlay \
     libgenlock \
-    libtinyxml
+    libtinyxml \
+    vendor.display.config@1.0.vendor
 
 # Doze mode
 PRODUCT_PACKAGES += \

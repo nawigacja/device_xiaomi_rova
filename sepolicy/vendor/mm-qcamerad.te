@@ -15,3 +15,7 @@ allow mm-qcamerad vendor_camera_prop:file { read open getattr };
 allow mm-qcamerad vendor_camera_prop:property_service { set };
 
 dontaudit mm-qcamerad default_prop:file { read open };
+
+get_prop(mm-qcamerad, vendor_camera_prop)
+get_prop(mm-qcamerad, exported_default_prop)
+set_prop(mm-qcamerad, vendor_camera_prop)

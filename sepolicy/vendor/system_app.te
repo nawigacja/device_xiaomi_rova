@@ -7,3 +7,6 @@ allow system_app { proc_vmallocinfo sysfs_zram }:file { read open };
 
 # Baseband
 get_prop(system_app, baseband_prop)
+
+# Camera
+get_prop(system_app, vendor_camera_prop)

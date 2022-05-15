@@ -10,7 +10,7 @@ allow mm-qcamerad property_socket:sock_file { write };
 allow mm-qcamerad sysfs_camera_fusion_id:dir r_dir_perms;
 allow mm-qcamerad sysfs_camera_fusion_id:file r_file_perms;
 allow mm-qcamerad sysfs_graphics:file r_file_perms;
-allow mm-qcamerad sysfs_jpeg:file { read };
+allow mm-qcamerad sysfs_jpeg:file { read open };
 allow mm-qcamerad vendor_camera_prop:file { read open getattr };
 allow mm-qcamerad vendor_camera_prop:property_service { set };
 

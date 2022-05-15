@@ -1,4 +1,7 @@
 allow zygote self:capability kill;
+
+dontaudit zygote system_file:dir { write };
+
 get_prop(zygote, exported_camera_prop)
 
 # Baseband

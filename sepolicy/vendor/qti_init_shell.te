@@ -1,4 +1,5 @@
-allow qti_init_shell proc_boot_reason:file r_file_perms;
-allow qti_init_shell sysfs_net:file rw_file_perms;
-allow qti_init_shell sysfs:file { write };
 allow qti_init_shell ctl_start_prop:property_service { set };
+allow qti_init_shell proc_boot_reason:file r_file_perms;
+allow qti_init_shell proc_page_cluster:file { write open };
+allow qti_init_shell sysfs:file { write };
+allow qti_init_shell sysfs_net:file rw_file_perms;

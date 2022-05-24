@@ -124,10 +124,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libdisplayconfig \
+    libdisplayconfig.qti \
     liboverlay \
     libgenlock \
+    libqdMetaData.system \
     libtinyxml \
-    vendor.display.config@1.0.vendor
+    vendor.display.config@1.0.vendor \
+    vendor.display.config@2.0
 
 # Doze mode
 PRODUCT_PACKAGES += \
@@ -243,7 +246,8 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    android.hardware.media.c2@1.0.vendor
+    android.hardware.media.c2@1.0.vendor \
+    libaacwrapper
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs_8937_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_8937_v1.xml \
@@ -513,6 +517,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
+
+# WiFi Display
+PRODUCT_BOOT_JARS += \
+   WfdCommon
+
+PRODUCT_PACKAGES += \
+    libwfdaac_vendor \
+    libnl
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/rova/rova-vendor.mk)

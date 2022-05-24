@@ -1,5 +1,7 @@
 typeattribute vendor_init data_between_core_and_vendor_violators;
 
+allow vendor_init bluetooth_prop:file { read };
+allow vendor_init cache_file:dir { search };
 allow vendor_init device:file { write };
 allow vendor_init ipa_dev:file { create };
 allow vendor_init media_rw_data_file:file { getattr relabelfrom };

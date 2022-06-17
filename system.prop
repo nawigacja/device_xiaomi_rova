@@ -24,6 +24,9 @@ ro.vendor.qti.va_aosp.support=1
 
 # Iorapd
 ro.iorapd.enable=false
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
 # Radio (IMS)
 service.qti.ims.enabled=1

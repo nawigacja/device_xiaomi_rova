@@ -14,7 +14,6 @@ KOMODO_OFFICIAL := true
 KOMODO_GAPPS_TYPE := nogapps
 KOMODO_VARIANT := RELEASE
 TARGET_BOOT_ANIMATION_RES := 720
-USE_PIXEL_CHARGING := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 $(call inherit-product, vendor/komodo/config/common.mk)
 

@@ -1,5 +1,7 @@
-allow system_app qemu_hw_prop:file { read };
+allow system_app qemu_hw_prop:file { read open };
 allow system_app zygote:unix_stream_socket { getopt };
+
+allow system_app { proc_vmallocinfo sysfs_zram }:file { read open };
 
 # Baseband
 get_prop(system_app, baseband_prop)

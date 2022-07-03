@@ -1,4 +1,6 @@
+allow system_app proc_vmallocinfo:file { read open };
 allow system_app qemu_hw_prop:file { read };
+allow system_app sysfs_zram:file { read open };
 allow system_app zygote:unix_stream_socket { getopt };
 
 # Baseband

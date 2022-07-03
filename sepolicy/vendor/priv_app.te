@@ -1,2 +1,4 @@
 allow priv_app zygote:unix_stream_socket { getopt };
 allow priv_app baseband_prop:file { read };
+
+dontaudit priv_app bluetooth_prop:file { open };

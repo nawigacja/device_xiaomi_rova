@@ -314,9 +314,6 @@
     -->
     <bool name="config_enableWifiDisplay">true</bool>
 
-    <!-- Enable video pause workaround when enabling/disabling the camera. -->
-    <bool name="config_useVideoPauseWorkaround">true</bool>
-
     <!-- Set to true if the wifi display supports compositing content stored
          in gralloc protected buffers.  For this to be true, there must exist
          a protected hardware path for surface flinger to composite and send

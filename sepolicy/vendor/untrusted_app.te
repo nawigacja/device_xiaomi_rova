@@ -1,5 +1,6 @@
 allow untrusted_app adsprpcd_file:dir { getattr };
 allow untrusted_app app_data_file:file { execute };
+allow untrusted_app app_data_file:lnk_file { read open getattr };
 allow untrusted_app baseband_prop:file { read };
 allow untrusted_app block_device:dir { search };
 allow untrusted_app file_contexts_file:file { read };

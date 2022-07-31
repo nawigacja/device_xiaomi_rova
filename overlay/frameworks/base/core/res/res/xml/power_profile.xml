@@ -11,10 +11,10 @@
         <value>1401000</value>
     </array>
     <array name="cpu.core_power.cluster0">
-        <value>75.272</value>
-        <value>157.309</value>
-        <value>272.391</value>
-        <value>435.892</value>
+        <value>47.30</value>  
+        <value>61.58</value>   
+        <value>76.16</value>   
+        <value>97.29</value>   
     </array>
     <item name="cpu.suspend">2.8</item>
     <item name="cpu.idle">4</item>
